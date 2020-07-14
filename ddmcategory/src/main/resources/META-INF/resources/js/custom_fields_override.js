@@ -1983,22 +1983,22 @@ AUI.add(
 			NAME: 'textarea'
 		});
 		//Create custom field component plugin
-		var regexString = "/^(\\+\\d{1,3}[- ]?)?\\d{10}$/i"
+		var regexString = "Gemet"
 		var customFieldHTML = '<input class="form-builder-field-node field-input field-input-text form-control"></input>'
 		var DDMCategory = A.Component.create(
 			{
 				ATTRS: {
 					urlPortail: {
-						value: 'Please enter url'
+						value: 'http://agroportal.lirmm.fr/ontologies'
 					},
 					fieldWidth: {
-						value: 'fff'
+						value: 'large'
 					},
 					apiKey: {
-						value: 'Please enter api'
+						value: '7560431d-cc5c-4e02-9f81-c21bc60e8518'
 					},
 					ontologieName: {
-						value: 'Please enter ontologie name'
+						value: 'Gemet'
 					},
 					dataType: {
 						value: 'string'
