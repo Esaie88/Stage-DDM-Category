@@ -15,7 +15,7 @@ import org.osgi.service.component.annotations.Component;
 		},
 		service = DDMFormFieldType.class
 )
-public class MobileNumberDDMFormFieldType implements DDMFormFieldType {
+public class CategoryDDMFormFieldType implements DDMFormFieldType {
 
 	public Class<? extends DDMFormFieldTypeSettings> getDDMFormFieldTypeSettings() {
 		return CustomFieldDDMFormFieldTypeSettings.class;

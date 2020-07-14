@@ -464,7 +464,7 @@ AUI.add(
 						labels = item.label;
 
 						item.label =
-							labels[editingLocale] || labels[defaultLocale];
+							labelsDDMTextAreaField[editingLocale] || labels[defaultLocale];
 
 						item.localizationMap = {};
 
@@ -1231,7 +1231,7 @@ AUI.add(
 					hiddenAttributes: MAP_HIDDEN_FIELD_ATTRS.DEFAULT,
 					iconClass: 'text',
 					label: 'Category',
-					type: 'ddm-category'
+					type: 'text'
 				}
 			],
 

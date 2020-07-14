@@ -14,7 +14,7 @@ import java.util.Locale;
  * If that fails or if the screen name is null or empty,
  */
 @Component(immediate = true, service = DDMFormFieldValueRenderer.class)
-public class MobileNumberDDMFormFieldValueRenderer extends BaseDDMFormFieldValueRenderer {
+public class CategoryDDMFormFieldValueRenderer extends BaseDDMFormFieldValueRenderer {
 
 	protected ValueAccessor getValueAcessor(Locale locale) {
 		return new ValueAccessor(locale) {

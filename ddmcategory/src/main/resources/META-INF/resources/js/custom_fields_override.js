@@ -1988,11 +1988,11 @@ AUI.add(
 		var DDMCategory = A.Component.create(
 			{
 				ATTRS: {
-					urlAgroportal: {
+					urlPortail: {
 						value: 'Please enter url'
 					},
 					fieldWidth: {
-						value: ''
+						value: 'fff'
 					},
 					apiKey: {
 						value: 'Please enter api'
@@ -2010,7 +2010,7 @@ AUI.add(
 
 				EXTENDS: A.FormBuilderTextField,
 
-				NAME: 'ddm-category',
+				NAME: 'text',
 
 				prototype: {
 					getHTML: function() {
@@ -2024,9 +2024,9 @@ AUI.add(
 						return model.concat(
 							[
 								{
-									attributeName: 'urlAgroportal',
+									attributeName: 'urlPortail',
 									editor: new A.TextAreaCellEditor(),
-									name: 'URL Agroportal'
+									name: 'URL Portail'
 								},
 								{
 									attributeName: 'apiKey',
@@ -2073,6 +2073,10 @@ AUI.add(
 			}
 		);
 		
+		
+
+		
+		
 		var plugins = [
 			DDMColorField,
 			DDMDateField,
@@ -2090,7 +2094,9 @@ AUI.add(
 			DDMHTMLTextField,
 			DDMTextAreaField,
 			//Add custom filed plugin in the list
-			DDMCategory
+			//DDMMobileNumberField
+			DDMCategory,
+			
 			
 			
 		];
